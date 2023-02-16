@@ -19,7 +19,7 @@ There is two way to modify denylist configuration without enabling Zygisk.
 
 #### Configure by CLI
 
-- You can manage denylist by `magiskhide --denylist`.
+- You can manage denylist by `magisk --denylist`.
 
 
 - To add pkg/process to denylist, use this command (example adding `com.google.android.gms.unstable`):
@@ -38,4 +38,4 @@ magisk --denylist rm com.google.android.gms com.google.android.gms.unstable
 
 ## Source code
 
-- <https://github.com/Magisk-Modules-Alt-Repo/MagiskHide>
+- <https://github.com/HuskyDG/MagiskHide>
