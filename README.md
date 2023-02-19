@@ -1,14 +1,14 @@
 ## MagiskHide
 
-Portable ptrace-based MagiskHide (from MagiskDelta) for Official Magisk v24.0+ as MagiskHide has been removed. In additional, this module does not need to install Riru or enable Zygisk.
+Portable ptrace-based MagiskHide (from MagiskDelta) for Official Magisk v24.0+ as MagiskHide has been removed. In additional, this module does not need to rely on Riru or Zygisk.
 
 ### How to use this
 
-This module is **ONLY** for Official Magisk v24.0+ and does not need Zygisk to be enabled.
+This module is **ONLY** for Official Magisk v24.0+ and does not need Zygisk to be enabled. Which mean you can hide Magisk root without enabling Zygisk.
 
-This module reads DenyList as hidelist, but **DOES NOT** need to enable Zygisk and Enforced DenyList
+This module reads DenyList as hidelist, but **DOES NOT** need to enable Zygisk and Enforced DenyList. You can use this module when Zygisk is enabled also but it is meanless.
 
-You can use this module when Zygisk is enabled also but it is meanless.
+NOTE: Isolated process and app zygote is not handle-able on Android 10 and lower. So Android 11+ is recommended!
 
 There are two way to modify denylist configuration without enabling Zygisk.
 
@@ -35,6 +35,11 @@ magisk --denylist rm com.google.android.gms com.google.android.gms.unstable
 
 - Use `magisk --denylist ls` to view denylist configuration
 
-## Source code
+### Bugreport
+
+- Attach `/cache/magisk.log` when report bug.
+
+### Source code
 
 - <https://github.com/HuskyDG/MagiskHide>
+
