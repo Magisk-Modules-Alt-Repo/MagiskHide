@@ -42,4 +42,3 @@ magisk --denylist rm com.google.android.gms com.google.android.gms.unstable
 ### Source code
 
 - <https://github.com/HuskyDG/MagiskHide>
-
