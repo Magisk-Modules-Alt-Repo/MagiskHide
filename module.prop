@@ -1,7 +1,7 @@
 id=magiskhide
 name=MagiskHide
 author=HuskyDG @MagiskDelta
-version=1.7
-versionCode=8
+version=1.8
+versionCode=9
 description=Let's revive MagiskHide! Portable ptrace-based MagiskHide (from MagiskDelta) for Official Magisk v24.0+ as MagiskHide has been removed. Android 11+ is recommended.
 updateJson=https://github.com/huskydg/magiskhide/releases/latest/download/update_release.json
