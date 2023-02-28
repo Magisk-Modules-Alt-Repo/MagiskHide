@@ -37,7 +37,11 @@ magisk --denylist rm com.google.android.gms com.google.android.gms.unstable
 
 ### Bugreport
 
-- Attach `/cache/magisk.log` when report bug.
+- If MagiskHide is working, you should see these line in Magisk logs:
+
+<img src="http://huskydg.github.io/img/Screenshot_20230228-102509.png" width="60%"/>
+
+- If there is any problem, use debug version and attach `/cache/magisk.log` when report bug.
 
 ### Source code
 
